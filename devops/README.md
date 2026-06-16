@@ -18,4 +18,9 @@
 2. Network - "app-net"
 
    DB-Postgres
-   
+   NGINX-WebServer
+
+#
+The go source files are converted to static files which are used by vite in frontend to serve the user
+
+Migrations are handeled via creation of schema migration ,the once already downloaded are skipped rest are downloaded
